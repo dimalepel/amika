@@ -3595,8 +3595,8 @@ a {
   margin-right: -4px;
 }
 .catalogue-list--sale .catalogue-list__item__title {
-	padding-left: 6px;
-  margin-right: -6px;
+	margin-left: -7px;
+  margin-right: -7px;
 }
 /* распродажа */
 .sale-catalogue {
