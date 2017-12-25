@@ -26,3 +26,9 @@
 История заказов | Поп-апы: https://dimalepel.github.io/amika/list-order-pop-ups.html
 
 Поиск товаров: https://dimalepel.github.io/amika/search.html
+
+<b>Добавление новых страниц:</b>
+
+Каталог: https://dimalepel.github.io/amika/katalog-open.html
+
+Распродажа: https://dimalepel.github.io/amika/katalog-rasprodaga.html
