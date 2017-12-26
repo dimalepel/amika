@@ -240,6 +240,16 @@ $(".pick-up-paint__title").click(function() {
 	$(".pick-up-paint__row").slideToggle();
 	$(this).toggleClass('open');
 });
+// Слайдер карточки товара
+$('.slider-nav').slick({
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+	vertical: true,
+  centerMode: false,
+  focusOnSelect: true
+});
 
 };
 
@@ -633,6 +643,9 @@ $('.slider-for').slick({
   fade: true,
   asNavFor: '.slider-nav'
 });
+
+if(document.documentElement.clientWidth >= 768) {
+
 $('.slider-nav').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
@@ -642,6 +655,7 @@ $('.slider-nav').slick({
   centerMode: false,
   focusOnSelect: true
 });
+};
 
 // Аккордион лаборатория
 $('.laboratories__droptabs__card .laboratories__droptabs__content > .laboratories__droptabs__content-item > .droptabs__content-item__header').on('click', function(){

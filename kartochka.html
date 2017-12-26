@@ -467,13 +467,13 @@
 									<div class = "col-lg-4">
 										<div class = "help-choise__field">
 											<label class = "help-choise__label">Введите ваш телефон:</label>
-											<input class = "help-choise__input">
+											<input class = "help-choise__input tel" data-validation="custom" data-validation-regexp="[0-9\-\(\)\s]+">
 										</div>
 									</div>
 									<div class = "col-lg-4">
 										<div class = "help-choise__field">
 											<label class = "help-choise__label">Введите ваш email:</label>
-											<input class = "help-choise__input">
+											<input class = "help-choise__input" data-validation="email">
 										</div>
 									</div>
 									<div class = "col-lg-12">
@@ -487,7 +487,7 @@
 									</div>
 								</form>
 							</div>
-							<div class = "col-lg-3">
+							<div class = "col-lg-3 hidden-xs">
 								<div class = "help-choise__banner">
 									<img src = "images/pic-help-choise.png" alt = "">
 									<div class = "help-choise__phone"></div>
@@ -495,13 +495,6 @@
 							</div>
 						</div>
 					</section>					
-					<!-- // -->
-					<section class = "catalogue-description">
-						<p>Эмалевые краски (эмали) представляют собой жидкие или пастообразные пигментированные материалы, которые в качестве лакокрасочной среды имеют раствор плёнкообразующего вещества в органических растворителях. Эмали так же образуют на поверхности окраски непрозрачное покрытие. Здесь становиться ясно, что основа эмалевой краски – это лак с добавлением пигментов.</p>
-						<p>Эмали в зависимости от состава основных плёнкообразующих веществ делят на масляные, феноломасляные, алкидные, алкидно-стирольные, эпоксидные, акриловые, полиуретановые, полиэфирные, нитроцеллюлозные и перхлорвиниловые. Но, не смотря на этот достаточно большой перечень разновидностей лакокрасочных материалов на отечественном рынке, в основном преобладают алкидные эмали.</p>
-						<p>Чем отличается краска от эмали?</p>
-						<p>К примеру, всем известная ПФ-115 и её улучшенные варианты с индексами «супер», «люкс», «экстра», «био» или под различными торговыми марками «ТИКОЛЛОР», «ТЕКС», «Согех», «Ореол»,  «Flamingo».</p>
-					</section>
 					<!-- // контент страницы -->
 				</div>
 			</div>
@@ -647,7 +640,7 @@
 					</div>
 					<div class = "aside-help-choise__field">
 						<label class = "aside-help-choise__label">Введите ваш телефон:</label>
-						<input class = "aside-help-choise__input">
+						<input class = "aside-help-choise__input tel" data-validation="custom" data-validation-regexp="[0-9\-\(\)\s]+">
 					</div>
 					<div class = "aside-help-choise__field">
 						<label class = "aside-help-choise__label">Какой вопрос вас интересует:</label>

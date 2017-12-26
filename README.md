@@ -32,3 +32,5 @@
 Каталог: https://dimalepel.github.io/amika/katalog-open.html
 
 Распродажа: https://dimalepel.github.io/amika/katalog-rasprodaga.html
+
+Карточка: https://dimalepel.github.io/amika/kartochka.html

@@ -1236,6 +1236,110 @@
 	.help-choise__textarea {height: 134px;}
 	.catalogue-description {padding-top: 28px;}
 	.catalogue-description p {line-height: 20px;}
+	/* карточка товара */
+	.tovar-picts {
+		padding-top: 4px;
+	}
+	.tovar-picts__slider-wr .slider-for img {
+		    max-width: 90%;
+	}
+	.slick-dotted.slick-slider {
+		margin-top: 14px;
+	}
+	.tovar-picts {
+		margin-bottom: 10px;
+	}
+	.single-goods__description {
+		height: auto;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 26px;
+    padding-left: 15px;
+    padding-right: 15px;
+		padding-bottom: 30px;
+    margin-bottom: 20px;
+	}
+	.single-goods__second-level__option {margin-bottom: 10px;}
+	.single-goods__characters__title {
+		font-size: 16px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.single-goods__characters__list {
+		font-size: 12px;
+    line-height: 16px;
+	}
+	.single-goods__characters {margin-bottom: 30px;}
+	.single-goods__download-data {
+    padding-top: 27px;
+    padding-left: 22px;
+		padding-bottom: 15px;
+		    margin-bottom: 22px;
+	}
+	.then-colored-single__title {
+		margin-bottom: 23px;
+    font-size: 16px;
+	}
+	.single-goods__download-data__title {margin-bottom: 20px;}
+	.single-goods__download-data__col {margin-bottom: 16px;}
+	.single-goods__characters__list td {
+    padding: 9px 20px;
+	}
+	.single-goods__title {
+		font-size: 16px;
+    margin-bottom: 0px;
+	}
+	.single-goods__description p {
+		font-size: 12px;
+    margin-bottom: 17px;
+	}
+	.single-goods__description__list li {
+		margin-bottom: 14px;
+		font-size: 12px;}
+	.single-goods__description__list li:before {
+		height: 12px;
+    margin-top: 2px;
+    background-size: contain;
+	}
+	.tovar-picts__slider-wr .slider-for {
+    width: 210px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    float: left;
+	}
+	.single-goods__description {
+		height: auto;
+    margin-right: -15px;
+    margin-left: -15px;
+	}
+	.single-goods__download-data__row {
+		display: block;
+	}
+	.single-goods__download-data__col {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+	}
+	.good-single-colored .then-colored__card__row {
+		column-count: 2;
+		margin-left: -5px;
+    margin-right: -5px;
+	}
+	.good-single-colored .then-colored__card__col {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+	}
+	.good-single-colored__more {
+		    margin-bottom: 16px;
+				margin-top: 8px;}
+	.then-colored-single {
+		padding-bottom: 10px;
+	}
+	.help-choise {
+		padding-top: 17px;
+	}
 }
 
 /* Extra Small Devices, Phones */
