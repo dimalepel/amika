@@ -1340,6 +1340,8 @@
 	.help-choise {
 		padding-top: 17px;
 	}
+	.then-colored__item__zoom span {display: none;}
+	.then-colored-single .then-colored__item__overlay__link {display: none;}
 }
 
 /* Extra Small Devices, Phones */
