@@ -34,3 +34,11 @@
 Распродажа: https://dimalepel.github.io/amika/katalog-rasprodaga.html
 
 Карточка: https://dimalepel.github.io/amika/kartochka.html
+
+Производство: https://dimalepel.github.io/amika/proizvodstvo.html
+
+Лаборатория: https://dimalepel.github.io/amika/laboratoria.html
+
+Чем покрашено - карточка: https://dimalepel.github.io/amika/chem-pokrasheno-kartochka.html
+
+Чем покрашено: https://dimalepel.github.io/amika/chem-pokrasheno.html

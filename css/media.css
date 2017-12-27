@@ -1557,6 +1557,7 @@
 	/* производство */
 	.production-area {
     margin-top: 33px;
+		margin-bottom: 43px;
 	}
 	.production-area__bg {
 		padding: 14px 14px 14px 14px;
@@ -1605,7 +1606,9 @@
 	.stage-prod__item .stage-prod__item__header {
 		    width: 100%; 
 				font-size: 13px;
+				padding: 16px 45px 16px 25px;
 			}
+			.stage-prod__item__header img {    margin-right: 10px;}
 	.stage-prod__item.open .stage-prod__item__header .title {color: #e31e24;}	
 	.stage-prod__item {position: relative;}
 	.stage-prod__item:after {
@@ -1613,9 +1616,9 @@
     display: block;
     top: 40px;
     position: absolute;
-    right: 13px;
+    right: 28px;
     height: 20px;
-    width: 20px;
+    width: 16px;
     background: url(../images/i/arrow-bottom-more-big.png) no-repeat center;
 	}
 	.stage-prod__item.open:after {
