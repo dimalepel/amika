@@ -209,6 +209,11 @@ $('.js-sale-slider').owlCarousel({
 
 // Скрипты для мобильной версии
 if(document.documentElement.clientWidth < 768) {
+	// Табы в производстве
+	$(".stage-prod__item__header").click(function() {
+		$(this).siblings(".stage-prod__item__content").slideToggle();
+		$(this).parent().toggleClass('open');
+	});
 	// Новости
 	$('.js-news').owlCarousel({
 		smartSpeed: 875, // плавность смены слайда
@@ -661,20 +666,6 @@ $('.slider-nav').slick({
 $('.laboratories__droptabs__card .laboratories__droptabs__content > .laboratories__droptabs__content-item > .droptabs__content-item__header').on('click', function(){
 	var element = $(this).parent('.laboratories__droptabs__content-item');
 	// Слайдер аккордиона
-	setTimeout(function(){
-		$('.js--droptabs-data__slider').owlCarousel({
-			smartSpeed: 875, 
-			navText: ['',''],	
-			nav: true,
-			loop: true,
-			items: 1,
-			autoplay: false,
-			smartSpeed:1750, 
-			navigation : true,
-			singleItem : true,
-			slideSpeed : 1800
-		});
-	}, 200);
 	if (element.hasClass('open')) {
 		element.removeClass('open');
 		element.find('.laboratories__droptabs__content-item').removeClass('open');
@@ -683,6 +674,20 @@ $('.laboratories__droptabs__card .laboratories__droptabs__content > .laboratorie
 	}
 	else {
 		element.addClass('open');
+		setTimeout(function(){
+			$('.js--droptabs-data__slider').owlCarousel({
+				smartSpeed: 875, 
+				navText: ['',''],	
+				nav: true,
+				loop: true,
+				items: 1,
+				autoplay: false,
+				smartSpeed:1750, 
+				navigation : true,
+				singleItem : true,
+				slideSpeed : 1800
+			});
+		}, 200);
 		element.children('.droptabs__content-item__body').slideDown();
 		element.parent('.laboratories__droptabs__content').parent('.laboratories__droptabs__card').siblings('.laboratories__droptabs__card').find('.laboratories__droptabs__content-item').children('.droptabs__content-item__body').slideUp();
 		element.parent('.laboratories__droptabs__content').parent('.laboratories__droptabs__card').siblings('.laboratories__droptabs__card').find('.laboratories__droptabs__content-item').removeClass('open');
