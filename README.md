@@ -42,3 +42,5 @@
 Чем покрашено - карточка: https://dimalepel.github.io/amika/chem-pokrasheno-kartochka.html
 
 Чем покрашено: https://dimalepel.github.io/amika/chem-pokrasheno.html
+
+Новости: https://dimalepel.github.io/amika/news.html
