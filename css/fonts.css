@@ -25,3 +25,10 @@
   src: url("../fonts/MyriadPro-Italic.otf");
   font-style: normal;
   font-weight: normal; }
+	
+	/* font-family: "MyriadPro-Semibold"; */
+@font-face {
+  font-family: "MyriadPro-Semibold";
+  src: url("../fonts/MyriadPro-Semibold.otf");
+  font-style: normal;
+  font-weight: normal; }
