@@ -44,3 +44,5 @@
 Чем покрашено: https://dimalepel.github.io/amika/chem-pokrasheno.html
 
 Новости: https://dimalepel.github.io/amika/news.html
+
+Страница новости: https://dimalepel.github.io/amika/single-news.html
