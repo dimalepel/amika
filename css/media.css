@@ -1,5 +1,37 @@
 @charset "UTF-8";
 /*==========  Desktop First Method  ==========*/
+@media only screen and (min-width: 769px) {
+	.stage-prod__item:hover {
+	position: relative;
+	border-bottom: 1px solid transparent;
+}
+.stage-prod__item:hover .stage-prod__item__content {
+	display: block;
+	position: absolute;
+	background: #fff;
+	border-top: 1px solid transparent;
+	border-right: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	border-left: 1px solid #dadada;
+	left: -1px;
+	right: -1px;
+	margin: 0;
+	padding: 15px 25px;
+	z-index: 15;
+}
+.stage-prod__item:hover .stage-prod__item__header {
+	
+}
+.stage-prod__item:hover:before {
+	content: '';
+	display: block;
+	border-top: 1px solid #dadada;
+	left: 15px;
+	bottom: 0;
+	position: absolute;
+	right: 15px;
+}
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .b-fixed-footer {

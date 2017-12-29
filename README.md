@@ -46,3 +46,5 @@
 Новости: https://dimalepel.github.io/amika/news.html
 
 Страница новости: https://dimalepel.github.io/amika/single-news.html
+
+P.S. Вынес новые скрипты в файл update-common.js
