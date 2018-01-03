@@ -133,3 +133,15 @@ $('.js-production-carousel').owlCarousel({
 	singleItem : true,
 	slideSpeed : 1800
 });
+
+// Скрывает длинное название рекомендуемой новости
+jQuery(".none-more").each(function(){
+	var review_full = jQuery(this).html();
+	var review = review_full;
+
+	if( review.length > 52 )
+	{
+		review = review.substring(0, 52);
+		jQuery(this).html( review + '...' );
+	}
+});

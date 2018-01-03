@@ -154,6 +154,16 @@ jQuery(".text-descr-small").each(function(){
 jQuery(".read_more").click(function(){
 	jQuery(this).parent().html( jQuery(this).parent().find(".full_text").html() );
 });
+jQuery(".none-more").each(function(){
+	var review_full = jQuery(this).html();
+	var review = review_full;
+
+	if( review.length > 52 )
+	{
+		review = review.substring(0, 52);
+		jQuery(this).html( review + '...' );
+	}
+});
 
 // Главный слайдер
 $('.js-slider').owlCarousel({
