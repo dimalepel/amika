@@ -4131,6 +4131,9 @@ a {
 	max-height: 31px;
 }
 /* список опций 2 */
+.single-goods__characters {
+	margin-bottom: 46px;
+}
 .single-goods__characters__title {
 	padding: 8px 25px;
 	font-size: 14px;

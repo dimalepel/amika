@@ -1344,6 +1344,7 @@
 	}
 	.single-goods__description {
 		height: auto;
+		min-height: 1px;
     margin-right: -15px;
     margin-left: -15px;
 	}
