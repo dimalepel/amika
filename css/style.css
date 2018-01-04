@@ -3863,6 +3863,7 @@ a {
 /* --- */
 .then-colored__item {
 	position: relative;
+	flex-direction: column;
 }
 .then-colored__item  img {display: block;}
 .then-colored__item__overlay {
@@ -3938,7 +3939,7 @@ a {
 	display: flex;
 	flex-flow: row wrap;
 	align-content: center;
-	flex-direction: column;
+	flex-direction: initial;
 }
 .then-colored__item__more-link {
 	font-family: "MyriadPro-Bold";
@@ -3989,7 +3990,10 @@ a {
 	width: 14px;
 	background: url(../images/i/arrow-bottom-more.png) no-repeat center;
 }
-.then-colored-single .then-colored__item__overlay__link {position: initial;}
+.then-colored-single .then-colored__item__overlay__link {
+	max-width: 85%;
+	position: initial;
+}
 .then-colored-single .then-colored__item__zoom {margin-bottom: 30px;}
 /* карточка товара */
 .single-goods {margin-top: 20px;}
