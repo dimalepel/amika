@@ -2843,7 +2843,7 @@ a {
 .search-table td:first-of-type {
   text-align: left; }
 
-.search-table tbody tr:nth-child(3n) td {
+/*.search-table tbody tr:nth-child(3n) td {
   font-family: "MyriadPro-Bold";
   color: #fff;
   background: #f54040; }
@@ -2853,7 +2853,7 @@ a {
   color: #fff; }
 
 .search-table tbody tr:nth-child(3n) td a:hover {
-  border-color: white; }
+  border-color: white; }*/
 
 .search-form-order__title {
   margin-bottom: 30px;
